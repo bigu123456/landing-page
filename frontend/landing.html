@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Vehicle List Page</title>
+</head>
+<body>
+
+    <div class="flex justify-center space-x-1 bg-fuchsia-100">
+        <img src="loginimage.png" class="h-16 w-16 rounded-lg" alt="Car Logo">
+        <h1 class="flex justify-center text-3xl py-5">Vehicle List</h1>
+    </div>
+
+    <nav class="py-5 px-5 bg-orange-600">
+        <ul class="flex justify-center space-x-11 text-white font-semibold">
+            <li class="cursor-pointer px-5 hover:text-gray-200">Home</li>
+            <li class="cursor-pointer px-5 hover:text-gray-200">Services</li>
+            <li class="cursor-pointer px-5 hover:text-gray-200">Team</li>
+            <li class="cursor-pointer px-5 hover:text-gray-200">About Us</li>
+        </ul>
+    </nav>
+
+    <main class="bg-[url('hero-page.png')] bg-cover bg-center h-screen flex items-center justify-center text-white">
+        <h1 class="text-5xl font-bold bg-black bg-opacity-50 p-5 rounded-lg">Welcome to Bigu Car Rental</h1>
+    </main>
+
+    <!-- Our Services Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="max-w-6xl mx-auto text-center px-5">
+            <h2 class="text-3xl font-semibold mb-6">Our Services</h2>
+            <p class="text-lg mb-12">We offer a wide range of rental services to meet all your needs.</p>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                
+                <!-- Service 1 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="Hero-page.png" alt="Service 1" class="h-40 w-full object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold">Car Rental</h3>
+                    <p class="text-gray-600 mt-2">Rent a car at affordable prices with flexible booking options.</p>
+                    <a href="car-list.html" class="mt-4 inline-flex items-center text-orange-600 font-semibold hover:underline">
+                        View List <span class="ml-2">→</span>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="CarPhoto.png" alt="Service 2" class="h-40 w-full object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold">Luxury Vehicles</h3>
+                    <p class="text-gray-600 mt-2">Choose from a selection of luxury vehicles for special events.</p>
+                    <a href="luxury-list.html" class="mt-4 inline-flex items-center text-orange-600 font-semibold hover:underline">
+                        View List <span class="ml-2">→</span>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
+                    <img src="loginimage.png" alt="Service 3" class="h-40 w-full object-cover rounded-lg mb-4">
+                    <h3 class="text-2xl font-semibold">24/7 Support</h3>
+                    <p class="text-gray-600 mt-2">Our team is available around the clock to assist you.</p>
+                    <a href="support.html" class="mt-4 inline-flex items-center text-orange-600 font-semibold hover:underline">
+                        View List <span class="ml-2">→</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-orange-600 text-white py-10">
+        <div class="max-w-6xl mx-auto px-5">
+            <div class="flex flex-col items-center space-y-4 mb-6">
+                <h1 class="text-3xl font-semibold">Bigu Car Rental Services</h1>
+                <h2 class="text-xl">Contact: 9810205962</h2>
+            </div>
+
+            <ul class="flex justify-center space-x-11 text-lg">
+                <li class="cursor-pointer hover:text-gray-200">Home</li>
+                <li class="cursor-pointer hover:text-gray-200">Services</li>
+                <li class="cursor-pointer hover:text-gray-200">Team</li>
+                <li class="cursor-pointer hover:text-gray-200">About Us</li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
